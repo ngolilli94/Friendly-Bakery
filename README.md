@@ -19,6 +19,9 @@ A rain-inspired design featuring a simple layout to reflect a rain-themed bakery
 
 **_Credits_**
 *Cake Images*: **Lady M Confections** (https://www.ladym.com/)
+
 *Macaron Images*: **Bibble & Sip** (https://www.bibbleandsip.com/)
+
 *Cream Puff Images* **Alimama Tea** (https://www.alimamanyc.com/)
+
 *Rainy Daze logo made at* https://logomakr.com/
