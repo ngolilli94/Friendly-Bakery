@@ -17,7 +17,7 @@ A rain-inspired design featuring a simple layout to reflect a rain-themed bakery
 * fotorama jQuery library
   * http://fotorama.io
 
-**_Credits_**
+#### **_Credits_**
 *Cake Images*: **Lady M Confections** (https://www.ladym.com/)
 
 *Macaron Images*: **Bibble & Sip** (https://www.bibbleandsip.com/)
