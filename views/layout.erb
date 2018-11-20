@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rainy Daze Bakery</title>
+  <link href="/styles.css" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bad+Script|Covered+By+Your+Grace|Italianno" rel="stylesheet">
+  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  
+</head>
+
+<body>
+<section id="logo">
+<img src="/images/rainy_daze_logo.png">
+</section>
+
+<div id="container">
+  <nav>
+    <li><a href="<%= url('/') %>">Home</a></li>
+    <li><a href="<%= url('/cakes') %>">Cakes</a></li>
+    <li><a href="<%= url('/macarons') %>">Macarons</a></li>
+    <li><a href="<%= url('/creampuffs') %>">Cream Puffs</a></li>
+    <li><a href="#" id="drinks">Drinks <span class="comingsoon">Coming Soon!<span></a></li>
+  </nav>
+
+  <%=yield%>
+  
+  <footer>
+    <div id="address">
+      <h3>Address</h3>
+      <p>77 Raincloud Lane</p>
+      <p>Leiyu, Niji 01101</p>
+    </div>
+
+    <div id="contact">
+      <h3>Contact</h3>
+      <p>pluviophile@rainy-daze.com</p>
+    </div>
+
+    <div>
+      <h3>Hours</h3>
+      <p>Rainy days</p>
+    </div>
+  </footer>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+</body>
+</html>
