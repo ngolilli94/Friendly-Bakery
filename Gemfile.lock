@@ -17,6 +17,7 @@ PLATFORMS
 
 DEPENDENCIES
   rack (>= 2.0.6)
+
   sinatra
 
 BUNDLED WITH
